@@ -13,7 +13,7 @@ body {
     background-color:rgba(255, 255, 255, 0)
     z-index:2;
 }
-.navbar_back{
+.navbar_back_itaru{
     height:57px;
     max-width:2200px;
     position:relative;
@@ -21,28 +21,22 @@ body {
     background-color:rgba(255, 255, 255, 0.5);
     z-index:2;
 }
-.logo{
+.logo_itaru{
     height:57px;
-    max-height:57px;
-    min-height:35px;
 }
-.nav-right{
-    position:absolute;
-    top:10px;
-    right:30px;
-}
-.fb_logo{
-    padding-top:5px;
+
+.fb_logo_itaru{
     height:28px;
 }
-.contact_text{
-  padding-top:5px;
+.contact_text_itaru{
+    font-size:16px;
+    padding-top:2px;
 }
-.DivLink{
+.DivLink_itaru{
     position:relative;
     padding-left:8px;
 }
-.DivLink .Link{
+.DivLink_itaru .Link_itaru{
     display: block;
     position: absolute;
     top: 0;
@@ -50,6 +44,44 @@ body {
     width: 100%;
     height: 100%;
 }
+@media (max-width:960px){
+    .navbar{
+        height:45px;
+    }
+    .navbar_back_itaru{
+        height:45px;
+    }
+    .logo_itaru{
+        height:45px;
+    }
+    .fb_logo_itaru{
+        height:22px;
+    }
+    .contact_text_itaru{
+      padding-top:2px;
+      font-size:14px;
+    }
+}
+@media (max-width:520px){
+    .navbar{
+        height:35px;
+    }
+    .navbar_back_itaru{
+        height:35px;
+    }
+    .logo_itaru{
+        height:35px;
+    }
+    .fb_logo_itaru{
+        height:15px;
+    }
+    .contact_text_itaru{
+      padding-top:5px;
+      font-size:10px;
+    }
+}
+
+
 .carousel-caption{
     background-color:rgba(255, 255, 255, 0.7);
     border-radius:20px;
@@ -60,12 +92,12 @@ body {
     top: 50%;
     transform: translateY(-50%);
 }
-.main_title_div{
+.main_title_div_itaru{
     padding-top:30px;
     max-width:318px;
     margin:auto;
 }
-.main_title_1{
+.main_title_1_itaru{
     color:#595757;
     padding-top:20px;
     font-weight:300;
@@ -83,7 +115,7 @@ body {
         width:100%;
     }
 }
-.main_title_2{
+.main_title_2_itaru{
     font-weight:normal;
     font-size:32px;
     letter-spacing:7px;
@@ -94,24 +126,24 @@ body {
     padding-bottom:10px;
 }
 /*ダイヤモンドと横棒のブロック*/
-.main_title_daiya_block{
+.main_title_daiya_block_itaru{
     max-width:320px;
     position:relative;
     margin:auto
 }
-.left_daiya{
+.left_daiya_itaru{
     height:14px;
     position:absolute;
     top:-6px;
     left:0;
     right:auto;
 }
-.main_title_border{
+.main_title_border_itaru{
     width:290px;
     border-bottom: 1.5px solid #595757;
     margin:auto;
 }
-.right_daiya{
+.right_daiya_itaru{
     height:14px;
     position:absolute;
     top:-7px;
@@ -120,13 +152,13 @@ body {
 }
 
 /*同志よ、ともに～*/
-.main_title_p_block{
+.main_title_p_block_itaru{
     max-width:290px;
     height:45px;
     position:relative;
     margin:auto;
 }
-.main_title_p1{
+.main_title_p1_itaru{
     color:#595757;
     font-size:10px
     -webkit-transform:scale(0.5);
@@ -141,7 +173,7 @@ body {
     right:auto;
 }
 
-.main_title_p2{
+.main_title_p2_itaru{
     height:30px;
     color:#595757;
     font-weight:bold;
@@ -155,14 +187,14 @@ body {
     right:0;
     border-left: 1px solid #707070;
 }
-@media (max-width: 810px){
+@media (max-width: 960px){
     .carousel-caption{
     max-width: 480px;
     height: 270px;
     top: 45%;
     transform: translateY(-50%);
     }
-    .main_title_div{
+    .main_title_div_itaru{
     padding-top:2px;
     max-width:318px;
     margin:auto;
@@ -172,16 +204,16 @@ body {
     }
 }
 
-@media (max-width: 545px){
-    .main_title_1{
+@media (max-width: 520px){
+    .main_title_1_itaru{
         font-size:20px;
         letter-spacing:17px;
     }
-    .main_title_2{
+    .main_title_2_itaru{
         font-size:18px;
     }
     /*ダイヤモンドと横棒のブロック*/
-    .main_title_daiya_block{
+    .main_title_daiya_block_itaru{
         width:280px;
     }
     .left_daiya{
@@ -191,17 +223,16 @@ body {
         left:0;
         right:auto;
     }
-    .main_title_border{
+    .main_title_border_itaru{
         width:260px;
     }
-    .right_daiya{
+    .right_daiya_itaru{
         height:14px;
         position:absolute;
         top:-7px;
         left:auto;
         right:0;
     }
-
 }
 
 /*footer*/
@@ -221,7 +252,8 @@ body {
 .footer p{
     color:#E6E6E6;
     padding-top: 20px;
-    text-align:center
+    text-align:center;
+    font-size:20px;
 }
 .footer_logo{
     position:absolute;
@@ -230,7 +262,21 @@ body {
     right: 0;
     left: auto;
 }
-@media (max-width: 700px){
+@media (max-width: 960px){
+    .footer{
+        height:20vw;
+        }
+    .footer_logo{
+        height:18vw;
+        }
+    .footer p{
+        color:#E6E6E6;
+        padding-top: 14px;
+        text-align:center;
+        font-size:16px;
+    }
+}
+@media (max-width: 520px){
     .footer{
         height:22vw;
         }
@@ -241,13 +287,7 @@ body {
     width:40vw;
         }
     .footer p{
-    padding-top: 3px;
-    font-size:2vw;
-    }
-}
-@media (max-width: 700px){
-    .footer p{
-    padding-top: 1px;
-    font-size:1.5vw;
+    padding-top: 2vw;
+    font-size:1vw;
     }
 }
