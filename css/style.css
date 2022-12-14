@@ -6,9 +6,7 @@ body {
     font-family: 'Montserrat', sans-serif;
      }
 .navbar{
-    height:5vw;
-    max-height:57px;
-    min-height:35px;
+    height:57px;
     max-width:2200px;
     width: 100%;
     position:absolute;
@@ -16,9 +14,7 @@ body {
     z-index:2;
 }
 .navbar_back{
-    height:5vw;
-    max-height:57px;
-    min-height:35px;
+    height:57px;
     max-width:2200px;
     position:relative;
     display: table;
@@ -26,7 +22,7 @@ body {
     z-index:2;
 }
 .logo{
-    height:5vw;
+    height:57px;
     max-height:57px;
     min-height:35px;
 }
@@ -36,11 +32,11 @@ body {
     right:30px;
 }
 .fb_logo{
+    padding-top:5px;
     height:28px;
-    vertical-align: middle;
 }
 .contact_text{
-  padding-top:3px;
+  padding-top:5px;
 }
 .DivLink{
     position:relative;
@@ -160,9 +156,6 @@ body {
     border-left: 1px solid #707070;
 }
 @media (max-width: 810px){
-    .fb_logo{
-        height:4vw;
-    }
     .carousel-caption{
     max-width: 480px;
     height: 270px;
