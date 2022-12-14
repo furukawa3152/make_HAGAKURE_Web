@@ -1,5 +1,5 @@
-.wrapper{
-    max-width:1100px;
+.wrapper_itaru{
+    max-width:2200px;
     margin: 0auto;
 }
 body {
@@ -9,7 +9,7 @@ body {
     height:5vw;
     max-height:57px;
     min-height:35px;
-    max-width:1100px;
+    max-width:2200px;
     width: 100%;
     position:absolute;
     background-color:rgba(255, 255, 255, 0)
@@ -19,7 +19,7 @@ body {
     height:5vw;
     max-height:57px;
     min-height:35px;
-    max-width:1100px;
+    max-width:2200px;
     position:relative;
     display: table;
     background-color:rgba(255, 255, 255, 0.5);
