@@ -172,7 +172,6 @@ body {
     left:-48px;
     right:auto;
 }
-
 .main_title_p2_itaru{
     height:30px;
     color:#595757;
@@ -187,51 +186,87 @@ body {
     right:0;
     border-left: 1px solid #707070;
 }
+.main_title_3_itaru{
+    display:none;
+}
 @media (max-width: 960px){
     .carousel-caption{
+    padding-top: 3vw;
     max-width: 480px;
-    height: 270px;
+    max-height: 220px;
+    height:35vw;
     top: 45%;
     transform: translateY(-50%);
     }
     .main_title_div_itaru{
     padding-top:2px;
     max-width:318px;
-    margin:auto;
     }
-    .main_title_1{
-        padding-top:20px;
+    .main_title_1_itaru{
+        padding-top:10px;
+        font-size:26px;
+        margin-left:8px;
+    }
+    .main_title_2_itaru{
+        padding-top:5px;
+        font-size:25px;
+    }
+    .main_title_p_block_itaru{
+    height:40px;
     }
 }
 
 @media (max-width: 520px){
+    .carousel-caption{
+    padding: 10px auto;
+    max-width: 480px;
+    max-height: 220px;
+    height:35vw;
+    top: 50%;
+    transform: translateY(-60%);
+    }
     .main_title_1_itaru{
-        font-size:20px;
-        letter-spacing:17px;
+        font-size:12px;
+        letter-spacing:15px;
+
+
     }
     .main_title_2_itaru{
-        font-size:18px;
+        font-size:14px;
+        padding-bottom:0px;
     }
     /*ダイヤモンドと横棒のブロック*/
     .main_title_daiya_block_itaru{
-        width:280px;
+        display:none;
     }
-    .left_daiya{
-        height:14px;
-        position:absolute;
-        top:-6px;
-        left:0;
-        right:auto;
+    .left_daiya_itaru{
+        display:none;
     }
     .main_title_border_itaru{
-        width:260px;
+        display:none;
     }
     .right_daiya_itaru{
-        height:14px;
-        position:absolute;
-        top:-7px;
-        left:auto;
-        right:0;
+        display:none;
+    }
+    .main_title_p1_itaru{
+        display:none;
+    }
+    .main_title_p2_itaru{
+        display:none;
+    }
+    .main_title_p_block_itaru{
+    height:2px;
+    }
+    .main_title_p3_itaru{
+    color:#595757;
+    padding-top:0px;
+    margin-bottom:0px;
+    font-size:10px
+    }
+    .main_title_p4_itaru{
+    color:#595757;
+    padding-top:0px;
+    font-size:10px;
     }
 }
 
