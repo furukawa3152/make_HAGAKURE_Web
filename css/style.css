@@ -3,7 +3,7 @@
     margin: 0auto;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
      }
 .navbar{
     height:57px;
@@ -209,6 +209,7 @@ body {
     }
     .main_title_2_itaru{
         padding-top:5px;
+        margin-bottom: 0;
         font-size:25px;
     }
     .main_title_p_block_itaru{
@@ -218,22 +219,25 @@ body {
 
 @media (max-width: 520px){
     .carousel-caption{
-    padding: 10px auto;
+    padding-top: 4vw;
     max-width: 480px;
     max-height: 220px;
-    height:35vw;
+    height:32vw;
     top: 50%;
     transform: translateY(-60%);
     }
+    .main_title_div_itaru{
+    padding-left:8px;
+    }
     .main_title_1_itaru{
+        margin:  0 auto;
         font-size:12px;
         letter-spacing:15px;
-
-
+        width:185px;
     }
     .main_title_2_itaru{
         font-size:14px;
-        padding-bottom:0px;
+        padding:8px 0 10px 0;
     }
     /*ダイヤモンドと横棒のブロック*/
     .main_title_daiya_block_itaru{
@@ -256,20 +260,60 @@ body {
     }
     .main_title_p_block_itaru{
     height:2px;
+    width:50px;
+    border-bottom: 0.5px solid #595757;
     }
     .main_title_p3_itaru{
     color:#595757;
-    padding-top:0px;
+    padding-top:0.5rem;
     margin-bottom:0px;
     font-size:10px
+    -webkit-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -ms-transform:scale(0.5);
+    -o-transform:scale(0.5);
+    transform:scale(0.5);
     }
     .main_title_p4_itaru{
     color:#595757;
+    font-weight:bold;
     padding-top:0px;
     font-size:10px;
+    letter-spacing:2px;
     }
 }
 
+@media (max-width: 490px){
+    .carousel-caption{
+        padding-top: 3vw;
+    }
+}
+@media (max-width: 450px){
+    .carousel-caption{
+        padding-top: 2vw;
+    }
+}
+@media (max-width: 420px){
+    .carousel-caption{
+        padding-top: 1vw;
+    }
+    .main_title_div_itaru{
+        padding-left:8px;
+    }
+    .main_title_2_itaru{
+        padding:8px 0 5px 0;
+    }
+    .main_title_p_block_itaru{
+        height:2px;
+        width:50px;
+        border-bottom: 0.5px solid #595757;
+    }
+    .main_title_p3_itaru{
+        color:#595757;
+        padding-top:2px;
+        margin-bottom:0px;
+    }
+}
 /*footer*/
 .footer{
     background-color:#969696;
