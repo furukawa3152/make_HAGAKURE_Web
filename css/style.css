@@ -1,6 +1,8 @@
+@charset "UTF-8";
+
 .wrapper_itaru{
     max-width:2200px;
-    margin: 0auto;
+    margin: 0 auto;
 }
 body {
     font-family: sans-serif;
@@ -10,7 +12,7 @@ body {
     max-width:2200px;
     width: 100%;
     position:absolute;
-    background-color:rgba(255, 255, 255, 0)
+    background-color:rgba(255, 255, 255, 0);
     z-index:2;
 }
 .navbar_back_itaru{
@@ -160,7 +162,7 @@ body {
 }
 .main_title_p1_itaru{
     color:#595757;
-    font-size:10px
+    font-size:10px;
     -webkit-transform:scale(0.5);
     -moz-transform:scale(0.5);
     -ms-transform:scale(0.5);
@@ -267,7 +269,7 @@ body {
     color:#595757;
     padding-top:0.5rem;
     margin-bottom:0px;
-    font-size:10px
+    font-size:10px;
     -webkit-transform:scale(0.5);
     -moz-transform:scale(0.5);
     -ms-transform:scale(0.5);
@@ -314,6 +316,7 @@ body {
         margin-bottom:0px;
     }
 }
+
 /*footer*/
 .footer{
     background-color:#969696;
@@ -370,3 +373,160 @@ body {
     font-size:1vw;
     }
 }
+
+/* -----aoubt_us ここから----- */
+html { font-size:62.5%}
+
+.about_us_morita h3 {
+  font-size: 2.4rem;
+  font-weight: normal;
+}
+
+.about_us_morita p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin: 1.2rem 0px;
+}
+
+.about_us_morita img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: bottom;
+}
+
+.about_us_morita div {
+  box-sizing: border-box;
+}
+
+.about_us_morita {
+  background-image: url(../images/background_image.jpg);
+  background-repeat: repeat;
+  background-size:  2200px auto;
+  width: 100%;
+  height: 702px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_morita{
+  width: 90%;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_images_morita{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.top_images_morita .left_side_morita {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.top_images_morita .right_side_morita {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+.content_morita {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  padding: 5.5% 10%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.castle_morita {
+  width: 28%;
+  height: auto;
+  margin: 0px auto 0px 15%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.samurai_morita {
+  width: 22%;
+  height: auto;
+  margin:  0px 11%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.tourou_morita {
+  width: 9%;
+  height: auto;
+  margin: 0px 2.6%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bamboo_morita {
+  width: 24%;
+  height: auto;
+  margin: 0px 11% 0px 0px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.top_icon_morita {
+  width: 20%;
+  height: auto;
+}
+
+.scroll_up {
+  transition: 0.6s ease-in-out;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.scroll_up.on {
+  transform: translateY(0);
+  opacity: 1.0;
+}
+
+/* 600px以下のサイズの場合のレイアウト
+----------------------------------------------------*/
+@media (max-width: 600px) {
+
+ .about_us_morita {
+    min-width: 375px;
+    height: auto;
+  }
+
+  .container_morita{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 5%;
+  }
+  
+  .content_morita {
+    border-radius: 25px;
+  }
+ 
+}
+/* ------about_us ここまで----- */
