@@ -377,10 +377,6 @@ body {
 /* -----aoubt_us ここから----- */
 html { font-size:62.5%}
 
-body {
-  background-color: #fffeee;
-}
-
 .about_us_morita h3 {
   font-size: 2.4rem;
   font-weight: normal;
@@ -507,11 +503,6 @@ body {
 .scroll_up.on {
   transform: translateY(0);
   opacity: 1.0;
-}
-
-.top_dummy_morita {
-  height: 1100px;
-  width: auto;
 }
 
 /* 600px以下のサイズの場合のレイアウト
