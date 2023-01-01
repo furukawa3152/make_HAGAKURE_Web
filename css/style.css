@@ -541,7 +541,6 @@ html { font-size:62.5%}
     z-index: -1;
 }
 .hagakure-containe_yhikaru {
-    /* position: absolute;  */
     z-index: -1; 
     background-color:#F9CCD2;
     display: flex;
@@ -560,14 +559,14 @@ html { font-size:62.5%}
 }
 .hagakure_topicon_yhikaru {
     width: 120px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
 }
-.hagakure-inner_yhikaru h3 {
+.hagakure-inner_yhikaru h1 {
     font-size:2.8rem;
     text-align:center;
-    margin-top: -15px;
+    margin-top: -30px;
 }
 .hagakure-inner_yhikaru  {
     width: 100%;
@@ -576,9 +575,10 @@ html { font-size:62.5%}
     margin-right: auto;
 }
 .hagakure-summary_yhikaru  {
-    margin-top: 10px;
+    margin-top: px;
+    margin-top: 20px;
     max-width: 35%;
-    font-size:1.8rem;
+    font-size:1.6rem;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -648,17 +648,22 @@ html { font-size:62.5%}
     display: none;
     }
     .hagakure_topicon_yhikaru {
-    width: 22%;
+    width: 20%;
     margin-top: 10px;
     }
     .hagakure-inner_yhikaru {
-    margin-top:5px;
+    margin-top:12px;
     width: 100%;
     font-size: 0.8rem;
     }
+    .hagakure-inner_yhikaru h1 {
+    margin-top:-25px;
+    width: 100%;
+    font-size: 2.3rem;
+    }
     .hagakure-summary_yhikaru {
     max-width: 72%;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 1.3rem;
     }
     .hagakure_samurai_2_yhikaru {
