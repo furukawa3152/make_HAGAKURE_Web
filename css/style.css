@@ -1,260 +1,163 @@
-.wrapper{
-    max-width:1100px;
-    margin: 0auto;
-}
-body {
-    font-family: 'Montserrat', sans-serif;
-     }
-.navbar{
-    height:5vw;
-    max-height:57px;
-    min-height:35px;
-    max-width:1100px;
-    width: 100%;
-    position:absolute;
-    background-color:rgba(255, 255, 255, 0)
-    z-index:2;
-}
-.navbar_back{
-    height:5vw;
-    max-height:57px;
-    min-height:35px;
-    max-width:1100px;
-    position:relative;
-    display: table;
-    background-color:rgba(255, 255, 255, 0.5);
-    z-index:2;
-}
-.logo{
-    height:5vw;
-    max-height:57px;
-    min-height:35px;
-}
-.nav-right{
-    position:absolute;
-    top:10px;
-    right:30px;
-}
-.fb_logo{
-    height:28px;
-    vertical-align: middle;
-}
-.contact_text{
-  padding-top:3px;
-}
-.DivLink{
-    position:relative;
-    padding-left:8px;
-}
-.DivLink .Link{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.carousel-caption{
-    background-color:rgba(255, 255, 255, 0.7);
-    border-radius:20px;
-    max-width: 620px;
-    height: 320px;
-    margin: 2rem auto 0;
-    padding: 2rem;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.main_title_div{
-    padding-top:30px;
-    max-width:318px;
-    margin:auto;
-}
-.main_title_1{
-    color:#595757;
-    padding-top:20px;
-    font-weight:300;
-    font-size:28px;
-    letter-spacing:22px;
-    white-space:nowrap;
-    overflow:hidden;
-    animation:main_title 2s linear;
-}
-@keyframes main_title{
-    from{
-        width:0%;
-    }
-    to{
-        width:100%;
-    }
-}
-.main_title_2{
-    font-weight:normal;
-    font-size:32px;
-    letter-spacing:7px;
-    color: transparent;
-    text-stroke: 1px white;
-    -webkit-text-stroke: 1px #595757;
-    padding-top:10px;
-    padding-bottom:10px;
-}
-/*ダイヤモンドと横棒のブロック*/
-.main_title_daiya_block{
-    max-width:320px;
-    position:relative;
-    margin:auto
-}
-.left_daiya{
-    height:14px;
-    position:absolute;
-    top:-6px;
-    left:0;
-    right:auto;
-}
-.main_title_border{
-    width:290px;
-    border-bottom: 1.5px solid #595757;
-    margin:auto;
-}
-.right_daiya{
-    height:14px;
-    position:absolute;
-    top:-7px;
-    left:auto;
-    right:0;
+@charset "UTF-8";
+
+.container_sns_fumoto{
+  background-image: url(../images/background_image.jpg);
+  background-repeat: repeat;
+  background-size:  1100px auto;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-/*同志よ、ともに～*/
-.main_title_p_block{
-    max-width:290px;
-    height:45px;
-    position:relative;
-    margin:auto;
-}
-.main_title_p1{
-    color:#595757;
-    font-size:10px
-    -webkit-transform:scale(0.5);
-    -moz-transform:scale(0.5);
-    -ms-transform:scale(0.5);
-    -o-transform:scale(0.5);
-    transform:scale(0.5);
-    letter-spacing: 1px;
-    position:absolute;
-    top:10px;
-    left:-48px;
-    right:auto;
+.item_left_fumoto{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
 }
 
-.main_title_p2{
-    height:30px;
-    color:#595757;
-    font-weight:bold;
-    font-size:12px;
-    letter-spacing: 1px;
-    padding-top:6px;
-    padding-left:12px;
-    position:absolute;
-    top:7px;
-    left:auto;
-    right:0;
-    border-left: 1px solid #707070;
-}
-@media (max-width: 810px){
-    .fb_logo{
-        height:4vw;
-    }
-    .carousel-caption{
-    max-width: 480px;
-    height: 270px;
-    top: 45%;
-    transform: translateY(-50%);
-    }
-    .main_title_div{
-    padding-top:2px;
-    max-width:318px;
-    margin:auto;
-    }
-    .main_title_1{
-        padding-top:20px;
-    }
+.cloud_fumoto {
+  position: absolute;
+  right: 100px;
+  bottom: 150px;
+  width: auto;
+  height: 200px;
+  margin: 0px 20% 0px 0px;
 }
 
-@media (max-width: 545px){
-    .main_title_1{
-        font-size:20px;
-        letter-spacing:17px;
-    }
-    .main_title_2{
-        font-size:18px;
-    }
-    /*ダイヤモンドと横棒のブロック*/
-    .main_title_daiya_block{
-        width:280px;
-    }
-    .left_daiya{
-        height:14px;
-        position:absolute;
-        top:-6px;
-        left:0;
-        right:auto;
-    }
-    .main_title_border{
-        width:260px;
-    }
-    .right_daiya{
-        height:14px;
-        position:absolute;
-        top:-7px;
-        left:auto;
-        right:0;
-    }
-
+.forest_fumoto {
+  width: auto;
+  height: 200px;
+  margin: 0px 20% 0px 0px;
 }
 
-/*footer*/
-.footer{
-    background-color:#969696;
-    height:165px;
-    position:relative;
+
+.background-image_makimono_fumoto{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.footer_border{
-    width:50vw;
-    border-bottom:solid;
-    border-color:#C4C4C4;
-    border-width:0.2px;
-    padding-top: 50px;
-    margin:auto
+
+/* .facebook_widefumoto{
+  width: 320px;
+} */
+
+.makimono_image_fumoto{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
-.footer p{
-    color:#E6E6E6;
-    padding-top: 20px;
-    text-align:center
+
+.makimono_fumoto {
+  width: 200px;
+  /* margin: 0px 0px 0px 0px; */
 }
-.footer_logo{
-    position:absolute;
-    height:160px;
-    top:7px;
-    right: 0;
-    left: auto;
+
+
+.snspart_fumoto{
+   color: black;
+   font-size: 40px;
+   text-align: center;
+   max-width: 500px;
+   /* height: 200px; */
 }
-@media (max-width: 700px){
-    .footer{
-        height:22vw;
-        }
-    .footer_logo{
-        height:20vw;
-        }
-    .footer_border{
-    width:40vw;
-        }
-    .footer p{
-    padding-top: 3px;
-    font-size:2vw;
+
+
+.facebook_shinfumoto_fumoto{
+  display: none;
+}
+
+@media(max-width:600px){
+  .facebook_widefumoto_fumoto{
+    display: none;
+  }
+
+  .facebook_shinfumoto_fumoto{
+    width: 320px;
+    display: initial;
+  }
+}
+
+.item_right_fumoto{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.castle_fumoto {
+  width: auto;
+  height: 200px;
+  margin: 0px 0px 0px 20%;
+}
+
+  @media(max-width:1500px){
+    .cloud_fumoto {
+      position: absolute;
+      right: 20%;
+      bottom: 100px;
+      width: 50%;
+      height: auto;
+      margin: 0px 20% 0px 0px;
     }
-}
-@media (max-width: 700px){
-    .footer p{
-    padding-top: 1px;
-    font-size:1.5vw;
+
+    .forest_fumoto {
+      width: 50%;
+      height: auto;
+      margin: 0px 20% 0px 0px;
     }
+    .castle_fumoto {
+      width: 50%;
+      height: auto;
+      margin: 0px 0px 0px 20%;
+    }
+
+    @media(max-width:1100px){
+      .cloud_fumoto {
+        position: absolute;
+        right: 20%;
+        bottom: 100px;
+        width: 150px;
+        height: auto;
+        margin: 0 auto;
+      }
+
+      .forest_fumoto {
+        width: 150px;
+        height: auto;
+        margin: 0 0 0 auto;
+      }
+      .castle_fumoto {
+        width: 150px;
+        height: auto;
+        margin: 0px 0px 0px 0px;
+      }
+
+
+@media(max-width:840px){
+  .cloud_fumoto {
+    display: none;
+  }
+  .forest_fumoto {
+    display: none;
+  }
+  .castle_fumoto {
+    display: none;
+  }
 }
+
+
+
+/* .cloud img { width: 100%; }
+.forest img { width: 100%; }
+.castle img { width: 100%; } */
