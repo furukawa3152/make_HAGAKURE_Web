@@ -676,3 +676,154 @@ html { font-size:62.5%}
     }
 }
 /* ------hagakureここまで---- */
+
+.container_sns_fumoto{
+  background-image: url(../images/background_image.jpg);
+  background-repeat: repeat;
+  background-size:  1100px auto;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.item_left_fumoto{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.cloud_fumoto {
+  position: absolute;
+  right: 100px;
+  bottom: 150px;
+  width: auto;
+  height: 200px;
+  margin: 0px 20% 0px 0px;
+}
+
+.forest_fumoto {
+  width: auto;
+  height: 200px;
+  margin: 0px 20% 0px 0px;
+}
+
+
+.background-image_makimono_fumoto{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.makimono_image_fumoto{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.makimono_fumoto {
+  width: 200px;
+}
+
+
+.sns_part_fumoto{
+   color: black;
+   font-size: 40px;
+   text-align: center;
+   max-width: 500px;
+}
+
+
+.facebook_shinfumoto_fumoto{
+  display: none;
+}
+
+@media(max-width:600px){
+  .facebook_widefumoto_fumoto{
+    display: none;
+  }
+
+  .facebook_shinfumoto_fumoto{
+    width: 320px;
+    display: initial;
+  }
+}
+
+.item_right_fumoto{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.castle_fumoto {
+  width: auto;
+  height: 200px;
+  margin: 0px 0px 0px 20%;
+}
+
+  @media(max-width:1500px){
+    .cloud_fumoto {
+      position: absolute;
+      right: 20%;
+      bottom: 100px;
+      width: 50%;
+      height: auto;
+      margin: 0px 20% 0px 0px;
+    }
+
+    .forest_fumoto {
+      width: 50%;
+      height: auto;
+      margin: 0px 20% 0px 0px;
+    }
+    .castle_fumoto {
+      width: 50%;
+      height: auto;
+      margin: 0px 0px 0px 20%;
+    }
+
+    @media(max-width:1100px){
+      .cloud_fumoto {
+        position: absolute;
+        right: 20%;
+        bottom: 100px;
+        width: 150px;
+        height: auto;
+        margin: 0 auto;
+      }
+
+      .forest_fumoto {
+        width: 150px;
+        height: auto;
+        margin: 0 0 0 auto;
+      }
+      .castle_fumoto {
+        width: 150px;
+        height: auto;
+        margin: 0px 0px 0px 0px;
+      }
+
+
+@media(max-width:840px){
+  .cloud_fumoto {
+    display: none;
+  }
+  .forest_fumoto {
+    display: none;
+  }
+  .castle_fumoto {
+    display: none;
+  }
+}
+
