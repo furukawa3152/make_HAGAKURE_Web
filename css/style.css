@@ -731,13 +731,14 @@ html { font-size:62.5%}
 }
 
 .makimono_fumoto {
-  width: 200px;
+  width: 120px;
 }
 
 
 .sns_part_fumoto{
    color: black;
-   font-size: 40px;
+   font-size: 2.4rem;
+   font-weight: normal;
    text-align: center;
    max-width: 500px;
 }
