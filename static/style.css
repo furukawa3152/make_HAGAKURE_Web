@@ -679,6 +679,7 @@ html { font-size:62.5%}
     }
 }
 /* ------hagakureここまで---- */
+/* ------SNSここから---- */
 
 .container_sns_fumoto{
   background-image: url(images/background_image.jpg);
@@ -831,7 +832,7 @@ html { font-size:62.5%}
     display: none;
   }
 }
-
+/* ------SNSここまで---- */
 /* -----dojo ここから----- */
 .dojo h1 {
   font-size: 2.4rem;
