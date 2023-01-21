@@ -329,6 +329,7 @@ body {
 }
 .footer_border{
     width:50vw;
+    max-width: 900px;
     border-bottom:solid;
     border-color:#C4C4C4;
     border-width:0.2px;
