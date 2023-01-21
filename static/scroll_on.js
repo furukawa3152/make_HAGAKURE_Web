@@ -1,16 +1,21 @@
 //scroll_effect
-window.onload = function(){
-  $(window).scroll(function () {
-  var scrollAnimationElm = document.querySelectorAll('.scroll_up');
-  var scrollAnimationFunc = function () {
-    for (var i = 0; i < scrollAnimationElm.length; i++) {
-      var triggerMargin = 100;
-      if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
-        scrollAnimationElm[i].classList.add('on');
+  $(function(){
+
+  });
+
+  $(window).on('load scroll', function(){
+    scroll_up_animation(-50);
+  });
+
+  function scroll_up_animation(triggerMargin){
+    var scrollAnimationElm = document.querySelectorAll('.scroll_up');
+
+    // console.log("animation")
+
+      for (var i = 0; i < scrollAnimationElm.length; i++) {
+        // console.log("No.:" + i + ", top:" + scrollAnimationElm[i].getBoundingClientRect().top + ", height:" + window.innerHeight);
+        if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
+          scrollAnimationElm[i].classList.add('on');
+        }
       }
-    }
   }
-  window.addEventListener('load', scrollAnimationFunc);
-  window.addEventListener('scroll', scrollAnimationFunc);
-})
-};
