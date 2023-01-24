@@ -17,10 +17,10 @@ body {
 .navbar_back_itaru{
     height:57px;
     max-width:2200px;
-    position:relative;
+    position:fixed;
     display: flex;
     background-color:rgba(255, 255, 255, 0.5);
-    z-index:2;
+    z-index:100;
 }
 .logo_itaru{
     height:57px;
@@ -31,11 +31,18 @@ body {
 }
 .contact_text_itaru{
     font-size:16px;
-    padding-top:2px;
+    padding: 2.5px 15px;
+    letter-spacing: 3px;
+    background-color: rgb(156, 155, 155);
+    border-radius: 5px;
+    color: rgba(255,255,255);
+    margin-left:5px;
+    margin-right:15px
 }
+
 .DivLink_itaru{
     position:relative;
-    padding-left:8px;
+
 }
 
 .DivLink_itaru .Link_itaru{
