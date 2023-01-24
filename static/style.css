@@ -8,6 +8,16 @@
 body {
     font-family: sans-serif;
      }
+
+p {
+  letter-spacing: 0.1rem;
+}
+
+img {
+  vertical-align: bottom;
+  line-height: 1.0em;
+}
+
 .navbar{
     height:57px;
     max-width:2200px;
@@ -387,7 +397,7 @@ body {
 }
 
 /* -----aoubt_us ここから----- */
-html { font-size:62.5%}
+html { font-size:80%}
 
 .about_us_morita h1 {
   font-size: 2.4rem;
@@ -417,7 +427,6 @@ html { font-size:62.5%}
   background-repeat: repeat;
   background-size:  2200px auto;
   width: 100%;
-  height: 702px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -426,11 +435,12 @@ html { font-size:62.5%}
 
 .container_morita{
   width: 90%;
-  max-width: 540px;
+  max-width: 720px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 90px 0px;
 }
 
 .top_images_morita{
@@ -558,7 +568,7 @@ html { font-size:62.5%}
     z-index: -1; 
     background-color:#F9CCD2;
     display: flex;
-    max-height: 286px; 
+    max-height: 500px; 
     min-height: 286px;
 }
 .hagakure-containe_yhikaru img {
@@ -690,11 +700,8 @@ html { font-size:62.5%}
 /* ------SNSここから---- */
 
 .container_sns_fumoto{
-  background-image: url(images/background_image.jpg);
-  background-repeat: repeat;
-  background-size:  1100px auto;
   width: 100%;
-　min-width: 375px;
+  min-width: 375px;
   height: 650px;
   display: flex;
   flex-direction: row;
@@ -866,9 +873,6 @@ html { font-size:62.5%}
 }
 
 .dojo {
-  background-image: url(images/background_image.jpg);
-  background-repeat: repeat;
-  background-size:  2200px auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -899,9 +903,9 @@ html { font-size:62.5%}
   justify-content: center;
   align-items: center;
 }
-.description_dojo{
+/* .description_dojo{
     max-width: 432px;
-}
+} */
 .top_icon_dojo {
   width: 20%;
   height: auto;
@@ -938,3 +942,9 @@ html { font-size:62.5%}
 
 }
 /* ------dojo ここまで----- */
+
+.dojo_makimono_group{
+  background-image: url(images/background_image.jpg);
+  background-repeat: repeat;
+  background-size:  2200px auto;
+}
