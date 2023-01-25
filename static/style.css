@@ -556,7 +556,7 @@ html { font-size:80%}
 .windy_contine_yhikaru{
     position: relative; 
     z-index: 10;
-    max-height: 286px; 
+    /* max-height: 286px;  */
     min-height: 286px;
     max-width: 2200px;
 }
@@ -568,8 +568,10 @@ html { font-size:80%}
     z-index: -1; 
     background-color:#F9CCD2;
     display: flex;
-    max-height: 500px; 
+    /* max-height: 500px;  */
     min-height: 286px;
+    padding: 40px 0px;
+    position: relative;
 }
 .hagakure-containe_yhikaru img {
     width: 100%;
@@ -578,7 +580,7 @@ html { font-size:80%}
     position: absolute; 
     width: 320px;
     left:8%;
-    margin-top:20px;
+    /* margin-top:20px; */
     transform: rotateZ(-10deg);
 }
 .hagakure_topicon_yhikaru {
@@ -613,7 +615,9 @@ html { font-size:80%}
     position: absolute; 
     width: 320px;
     right:8%;
-    margin-top:20px;
+    top: auto;
+    bottom: auto;
+    /* margin-top:20px; */
     transform: rotateZ(15deg);
 }
 @media screen and (max-width: 1440px) {
@@ -702,7 +706,7 @@ html { font-size:80%}
 .container_sns_fumoto{
   width: 100%;
   min-width: 375px;
-  height: 650px;
+  height: 900px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -733,6 +737,8 @@ html { font-size:80%}
   width: auto;
   height: 200px;
   margin: 0px 20% 0px 0px;
+  position: absolute;
+  bottom: -1px;
 }
 
 
@@ -764,6 +770,10 @@ html { font-size:80%}
    margin-bottom:15px;
 }
 
+.sns_box_fumoto {
+  margin-bottom: 120px;
+}
+
 .facebook_shinfumoto_fumoto{
   display: none;
 }
@@ -773,8 +783,8 @@ html { font-size:80%}
     display: none;
   }
 
-  .facebook_shinfumoto_fumoto{
-    width: 320px;
+  .facebook_shinfumoto_fumoto {
+    /* width: 320px; */
     display: initial;
   }
 }
@@ -786,11 +796,14 @@ html { font-size:80%}
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
+  position: relative;
 }
 .castle_fumoto {
   width: auto;
   height: 200px;
   margin: 0px 0px 0px 20%;
+  position: absolute;
+  bottom: -1px;
 }
 
   @media(max-width:1500px){
