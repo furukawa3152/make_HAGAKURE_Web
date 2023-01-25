@@ -24,6 +24,7 @@ img {
     width: 100%;
     position:absolute;
 }
+
 .navbar_back_itaru{
     height:57px;
     max-width:2200px;
@@ -31,7 +32,9 @@ img {
     display: flex;
     background-color:rgba(255, 255, 255, 0.5);
     z-index:100;
+    width: 100vw;
 }
+
 .logo_itaru{
     height:57px;
 }
@@ -648,7 +651,6 @@ html { font-size:80%}
     .hagakure_samurai_1_yhikaru {
     position: absolute; 
     width: 240px;
-    left:-20px;
     margin-top:45px;
     transform: rotateZ(-10deg);
     }
@@ -663,12 +665,13 @@ html { font-size:80%}
     .hagakure_samurai_2_yhikaru {
     position: absolute; 
     width: 240px;
-    right:-20px;
     margin-top:45px;
     transform: rotateZ(20deg);
     }
 }
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 800px) {
     .windy_contine_yhikaru {
     position: relative; 
     min-width: 375px;
