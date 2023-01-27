@@ -8,12 +8,23 @@
 body {
     font-family: sans-serif;
      }
+
+p {
+  letter-spacing: 0.1rem;
+}
+
+img {
+  vertical-align: bottom;
+  line-height: 1.0em;
+}
+
 .navbar{
     height:57px;
     max-width:2200px;
     width: 100%;
     position:absolute;
 }
+
 .navbar_back_itaru{
     height:57px;
     max-width:2200px;
@@ -21,7 +32,9 @@ body {
     display: flex;
     background-color:rgba(255, 255, 255, 0.5);
     z-index:100;
+    width: 100vw;
 }
+
 .logo_itaru{
     height:57px;
 }
@@ -387,7 +400,7 @@ body {
 }
 
 /* -----aoubt_us ここから----- */
-html { font-size:62.5%}
+html { font-size:80%}
 
 .about_us_morita h1 {
   font-size: 2.4rem;
@@ -417,7 +430,6 @@ html { font-size:62.5%}
   background-repeat: repeat;
   background-size:  2200px auto;
   width: 100%;
-  height: 702px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -426,11 +438,12 @@ html { font-size:62.5%}
 
 .container_morita{
   width: 90%;
-  max-width: 540px;
+  max-width: 720px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 90px 0px;
 }
 
 .top_images_morita{
@@ -546,7 +559,7 @@ html { font-size:62.5%}
 .windy_contine_yhikaru{
     position: relative; 
     z-index: 10;
-    max-height: 286px; 
+    /* max-height: 286px;  */
     min-height: 286px;
     max-width: 2200px;
 }
@@ -558,8 +571,10 @@ html { font-size:62.5%}
     z-index: -1; 
     background-color:#F9CCD2;
     display: flex;
-    max-height: 286px; 
+    /* max-height: 500px;  */
     min-height: 286px;
+    padding: 40px 0px;
+    position: relative;
 }
 .hagakure-containe_yhikaru img {
     width: 100%;
@@ -568,7 +583,7 @@ html { font-size:62.5%}
     position: absolute; 
     width: 320px;
     left:8%;
-    margin-top:20px;
+    /* margin-top:20px; */
     transform: rotateZ(-10deg);
 }
 .hagakure_topicon_yhikaru {
@@ -603,7 +618,9 @@ html { font-size:62.5%}
     position: absolute; 
     width: 320px;
     right:8%;
-    margin-top:20px;
+    top: auto;
+    bottom: auto;
+    /* margin-top:20px; */
     transform: rotateZ(15deg);
 }
 @media screen and (max-width: 1440px) {
@@ -634,7 +651,6 @@ html { font-size:62.5%}
     .hagakure_samurai_1_yhikaru {
     position: absolute; 
     width: 240px;
-    left:-20px;
     margin-top:45px;
     transform: rotateZ(-10deg);
     }
@@ -649,12 +665,13 @@ html { font-size:62.5%}
     .hagakure_samurai_2_yhikaru {
     position: absolute; 
     width: 240px;
-    right:-20px;
     margin-top:45px;
     transform: rotateZ(20deg);
     }
 }
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 800px) {
     .windy_contine_yhikaru {
     position: relative; 
     min-width: 375px;
@@ -690,11 +707,8 @@ html { font-size:62.5%}
 /* ------SNSここから---- */
 
 .container_sns_fumoto{
-  background-image: url(images/background_image.jpg);
-  background-repeat: repeat;
-  background-size:  1100px auto;
   width: 100%;
-　min-width: 375px;
+  min-width: 375px;
   height: 650px;
   display: flex;
   flex-direction: row;
@@ -726,6 +740,8 @@ html { font-size:62.5%}
   width: auto;
   height: 200px;
   margin: 0px 20% 0px 0px;
+  position: absolute;
+  bottom: -1px;
 }
 
 
@@ -779,11 +795,14 @@ html { font-size:62.5%}
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
+  position: relative;
 }
 .castle_fumoto {
   width: auto;
   height: 200px;
   margin: 0px 0px 0px 20%;
+  position: absolute;
+  bottom: -1px;
 }
 
   @media(max-width:1500px){
@@ -866,9 +885,6 @@ html { font-size:62.5%}
 }
 
 .dojo {
-  background-image: url(images/background_image.jpg);
-  background-repeat: repeat;
-  background-size:  2200px auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -899,9 +915,9 @@ html { font-size:62.5%}
   justify-content: center;
   align-items: center;
 }
-.description_dojo{
+/* .description_dojo{
     max-width: 432px;
-}
+} */
 .top_icon_dojo {
   width: 20%;
   height: auto;
@@ -938,3 +954,9 @@ html { font-size:62.5%}
 
 }
 /* ------dojo ここまで----- */
+
+.dojo_makimono_group{
+  background-image: url(images/background_image.jpg);
+  background-repeat: repeat;
+  background-size:  2200px auto;
+}
