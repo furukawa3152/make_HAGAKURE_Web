@@ -709,7 +709,7 @@ html { font-size:80%}
 .container_sns_fumoto{
   width: 100%;
   min-width: 375px;
-  height: 650px;
+  height: 810px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -751,6 +751,7 @@ html { font-size:80%}
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 160px;
 }
 
 .makimono_image_fumoto{
@@ -849,6 +850,12 @@ html { font-size:80%}
 
 }
 @media(max-width:840px){
+  .container_sns_fumoto {
+    height: 750px;
+  }
+  .background-image_makimono_fumoto {
+    padding-bottom: 80px;
+  }
   .cloud_fumoto {
     display: none;
   }
