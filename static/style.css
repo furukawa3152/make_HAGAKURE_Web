@@ -122,6 +122,14 @@ img {
     max-width:318px;
     margin:auto;
 }
+
+/*画面縦幅いっぱいに表示する設定。レスポンシブ時の挙動が微妙なため保留。*/
+/* .top1_image{
+  width: auto;
+  height: 100vh;
+  object-fit: cover;
+} */
+
 .main_title_1{
     color:#595757;
     padding-top:40px;
@@ -249,6 +257,7 @@ img {
     .main_title_p_block{
     height:40px;
     }
+
 }
 
 @media (max-width: 520px){
