@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.wrapper_itaru{
+.wrapper_hp{
     max-width:2200px;
     min-width: 375px;
     margin: 0 auto;
@@ -25,7 +25,7 @@ img {
     position:absolute;
 }
 
-.navbar_back_itaru{
+.navbar_back_header{
     height:57px;
     max-width:2200px;
     position:fixed;
@@ -39,10 +39,10 @@ img {
     height:57px;
 }
 
-.fb_logo_itaru{
+.fb_logo_header{
     height:28px;
 }
-.contact_text_itaru{
+.contact_text_header{
     font-size:16px;
     padding: 2.5px 15px;
     letter-spacing: 3px;
@@ -53,12 +53,12 @@ img {
     margin-right:15px
 }
 
-.DivLink_itaru{
+.DivLink_header{
     position:relative;
 
 }
 
-.DivLink_itaru .Link_itaru{
+.DivLink_header .Link_header{
     display: block;
     position: absolute;
     top: 0;
@@ -70,16 +70,16 @@ img {
     .navbar{
         height:45px;
     }
-    .navbar_back_itaru{
+    .navbar_back_header{
         height:45px;
     }
     .logo_itaru{
         height:45px;
     }
-    .fb_logo_itaru{
+    .fb_logo_header{
         height:22px;
     }
-    .contact_text_itaru{
+    .contact_text_header{
       padding-top:2px;
       font-size:14px;
     }
@@ -89,17 +89,17 @@ img {
         min-width: 375px;
         height:35px;
     }
-    .navbar_back_itaru{
+    .navbar_back_header{
         min-width: 375px;
         height:35px;
     }
     .logo_itaru{
         height:35px;
     }
-    .fb_logo_itaru{
+    .fb_logo_header{
         height:15px;
     }
-    .contact_text_itaru{
+    .contact_text_header{
         padding-top:0px;
         font-size:10px;
     }
@@ -117,12 +117,12 @@ img {
     top: 50%;
     transform: translateY(-50%);
 }
-.main_title_div_itaru{
+.main_title_div{
     padding-top:30px;
     max-width:318px;
     margin:auto;
 }
-.main_title_1_itaru{
+.main_title_1{
     color:#595757;
     padding-top:40px;
     font-weight:300;
@@ -140,7 +140,7 @@ img {
         width:100%;
     }
 }
-.main_title_2_itaru{
+.main_title_2{
     font-weight:normal;
     font-size:32px;
     letter-spacing:7px;
@@ -151,24 +151,24 @@ img {
     padding-bottom:10px;
 }
 /*ダイヤモンドと横棒のブロック*/
-.main_title_daiya_block_itaru{
+.main_title_daiya_block{
     max-width:320px;
     position:relative;
     margin:auto
 }
-.left_daiya_itaru{
+.left_daiya{
     height:14px;
     position:absolute;
     top:-6px;
     left:0;
     right:auto;
 }
-.main_title_border_itaru{
+.main_title_border{
     width:290px;
     border-bottom: 1.5px solid #595757;
     margin:auto;
 }
-.right_daiya_itaru{
+.right_daiya{
     height:14px;
     position:absolute;
     top:-7px;
@@ -177,13 +177,13 @@ img {
 }
 
 /*同志よ、ともに～*/
-.main_title_p_block_itaru{
+.main_title_p_block{
     max-width:290px;
     height:45px;
     position:relative;
     margin:auto;
 }
-.main_title_p1_itaru{
+.main_title_p1{
     color:#595757;
     font-size:17px;
     -webkit-transform:scale(0.5);
@@ -197,7 +197,7 @@ img {
     left:-48px;
     right:auto;
 }
-.main_title_p2_itaru{
+.main_title_p2{
     height:30px;
     color:#595757;
     font-weight:bold;
@@ -211,6 +211,15 @@ img {
     right:0;
     border-left: 1px solid #707070;
 }
+
+.main_title_p3 {
+  display: none;
+}
+
+.main_title_p4 {
+  display: none;
+}
+
 .main_title_3_itaru{
     display:none;
 }
@@ -223,21 +232,21 @@ img {
     top: 45%;
     transform: translateY(-50%);
     }
-    .main_title_div_itaru{
+    .main_title_div{
     padding-top:2px;
     max-width:318px;
     }
-    .main_title_1_itaru{
+    .main_title_1{
         padding-top:18px;
         font-size:26px;
         margin-left:8px;
     }
-    .main_title_2_itaru{
+    .main_title_2{
         padding-top:5px;
         margin-bottom: 0;
         font-size:25px;
     }
-    .main_title_p_block_itaru{
+    .main_title_p_block{
     height:40px;
     }
 }
@@ -251,61 +260,63 @@ img {
     top: 50%;
     transform: translateY(-60%);
     }
-    .main_title_div_itaru{
+    .main_title_div{
     padding-left:8px;
     }
-    .main_title_1_itaru{
+    .main_title_1{
         padding-top:10px;
         margin:  0 auto;
         font-size:12px;
         letter-spacing:15px;
         width:185px;
     }
-    .main_title_2_itaru{
+    .main_title_2{
         font-size:14px;
         padding:8px 0 6px 0;
     }
     /*ダイヤモンドと横棒のブロック*/
-    .main_title_daiya_block_itaru{
+    .main_title_daiya_block{
         display:none;
     }
-    .left_daiya_itaru{
+    .left_daiya{
         display:none;
     }
-    .main_title_border_itaru{
+    .main_title_border{
         display:none;
     }
-    .right_daiya_itaru{
+    .right_daiya{
         display:none;
     }
-    .main_title_p1_itaru{
+    .main_title_p1{
         display:none;
     }
-    .main_title_p2_itaru{
+    .main_title_p2{
         display:none;
     }
-    .main_title_p_block_itaru{
-    height:2px;
-    width:50px;
-    border-bottom: 0.5px solid #595757;
+    .main_title_p_block{
+      height:2px;
+      width:50px;
+      border-bottom: 0.5px solid #595757;
     }
-    .main_title_p3_itaru{
-    color:#595757;
-    padding-top:0.5rem;
-    margin-bottom:0px;
-    font-size:16px;
-    -webkit-transform:scale(0.5);
-    -moz-transform:scale(0.5);
-    -ms-transform:scale(0.5);
-    -o-transform:scale(0.5);
-    transform:scale(0.5);
+    .main_title_p3{
+      color:#595757;
+      padding-top:0.5rem;
+      margin-bottom:0px;
+      font-size:16px;
+      -webkit-transform:scale(0.5);
+      -moz-transform:scale(0.5);
+      -ms-transform:scale(0.5);
+      -o-transform:scale(0.5);
+      transform:scale(0.5);
+      display: block;
     }
-    .main_title_p4_itaru{
-    color:#595757;
-    font-weight:bold;
-    padding-top:0px;
-    font-size:10px;
-    letter-spacing:2px;
+    .main_title_p4{
+      color:#595757;
+      font-weight:bold;
+      padding-top:0px;
+      font-size:10px;
+      letter-spacing:2px;
+      display: block;
     }
 }
 
@@ -323,18 +334,18 @@ img {
     .carousel-caption{
         padding-top: 1vw;
     }
-    .main_title_div_itaru{
+    .main_title_div{
         padding-left:8px;
     }
-    .main_title_2_itaru{
+    .main_title_2{
         padding:8px 0 5px 0;
     }
-    .main_title_p_block_itaru{
+    .main_title_p_block{
         height:2px;
         width:50px;
         border-bottom: 0.5px solid #595757;
     }
-    .main_title_p3_itaru{
+    .main_title_p3{
         color:#595757;
         padding-top:2px;
         margin-bottom:0px;
@@ -402,18 +413,18 @@ img {
 /* -----aoubt_us ここから----- */
 html { font-size:80%}
 
-.about_us_morita h1 {
+.all_aboutus h1 {
   font-size: 2.4rem;
   font-weight: normal;
 }
 
-.about_us_morita p {
+.all_aboutus p {
   font-size: 1.2rem;
   line-height: 1.7;
   margin: 1.2rem 0px;
 }
 
-.about_us_morita img {
+.all_aboutus img {
   width: auto;
   height: auto;
   max-width: 100%;
@@ -421,11 +432,11 @@ html { font-size:80%}
   vertical-align: bottom;
 }
 
-.about_us_morita div {
+.all_aboutus div {
   box-sizing: border-box;
 }
 
-.about_us_morita {
+.all_aboutus {
   background-image: url(images/background_image.jpg);
   background-repeat: repeat;
   background-size:  2200px auto;
@@ -436,7 +447,7 @@ html { font-size:80%}
   align-items: center;
 }
 
-.container_morita{
+.container_aboutus{
   width: 90%;
   max-width: 720px;
   display: flex;
@@ -446,14 +457,14 @@ html { font-size:80%}
   margin: 90px 0px;
 }
 
-.top_images_morita{
+.top_images_aboutus{
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
 }
 
-.top_images_morita .left_side_morita {
+.top_images_aboutus .left_side_aboutus {
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -461,7 +472,7 @@ html { font-size:80%}
   justify-content: flex-start;
 }
 
-.top_images_morita .right_side_morita {
+.top_images_aboutus .right_side_aboutus {
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -470,7 +481,7 @@ html { font-size:80%}
 }
 
 
-.content_morita {
+.content_aboutus {
   background-color: #ffffff;
   width: 100%;
   height: auto;
@@ -482,7 +493,7 @@ html { font-size:80%}
   align-items: center;
 }
 
-.castle_morita {
+.castle_aboutus {
   width: 28%;
   height: auto;
   margin: 0px auto 0px 15%;
@@ -490,7 +501,7 @@ html { font-size:80%}
   align-items: flex-end;
 }
 
-.samurai_morita {
+.samurai_aboutus {
   width: 22%;
   height: auto;
   margin:  0px 11%;
@@ -498,7 +509,7 @@ html { font-size:80%}
   align-items: flex-end;
 }
 
-.tourou_morita {
+.tourou_aboutus {
   width: 9%;
   height: auto;
   margin: 0px 2.6%;
@@ -506,7 +517,7 @@ html { font-size:80%}
   align-items: flex-end;
 }
 
-.bamboo_morita {
+.bamboo_aboutus {
   width: 24%;
   height: auto;
   margin: 0px 11% 0px 0px;
@@ -514,7 +525,7 @@ html { font-size:80%}
   align-items: flex-end;
 }
 
-.top_icon_morita {
+.top_icon_aboutus {
   width: 20%;
   height: auto;
 }
@@ -534,12 +545,12 @@ html { font-size:80%}
 ----------------------------------------------------*/
 @media (max-width: 600px) {
 
- .about_us_morita {
+ .all_aboutus {
     min-width: 375px;
     height: auto;
   }
 
-  .container_morita{
+  .container_aboutus{
     width: 90%;
     height: 80%;
     display: flex;
@@ -549,14 +560,14 @@ html { font-size:80%}
     margin: 10% 5%;
   }
   
-  .content_morita {
+  .content_aboutus {
     border-radius: 25px;
   }
  
 }
 /* ------about_us ここまで----- */
 /* ------hagakureここから----- */
-.windy_contine_yhikaru{
+.windy_contine_hagakureexp{
     position: relative; 
     z-index: 10;
     /* max-height: 286px;  */
@@ -567,7 +578,7 @@ html { font-size:80%}
     position: absolute; 
     z-index: -1;
 }
-.hagakure-containe_yhikaru {
+.hagakure-containe_hagakureexp {
     z-index: -1; 
     background-color:#F9CCD2;
     display: flex;
@@ -576,35 +587,35 @@ html { font-size:80%}
     padding: 40px 0px;
     position: relative;
 }
-.hagakure-containe_yhikaru img {
+.hagakure-containe_hagakureexp img {
     width: 100%;
 }
-.hagakure_samurai_1_yhikaru  {
+.hagakure_samurai_1_hagakureexp  {
     position: absolute; 
     width: 320px;
     left:8%;
     /* margin-top:20px; */
     transform: rotateZ(-10deg);
 }
-.hagakure_topicon_yhikaru {
+.hagakure_topicon_hagakureexp {
     width: 120px;
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
 }
-.hagakure-inner_yhikaru h1 {
+.hagakure-inner_hagakureexp h1 {
     font-size:2.4rem;
     text-align:center;
     margin-top: -30px;
     margin-bottom: 15px
 }
-.hagakure-inner_yhikaru  {
+.hagakure-inner_hagakureexp  {
     width: 100%;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
 }
-.hagakure-summary_yhikaru  {
+.hagakure-summary_hagakureexp  {
     margin-top: px;
     margin-top: 20px;
     max-width: 35%;
@@ -614,7 +625,7 @@ html { font-size:80%}
     margin-right: auto;
     text-align: left;
 }
-.hagakure_samurai_2_yhikaru {
+.hagakure_samurai_2_hagakureexp {
     position: absolute; 
     width: 320px;
     right:8%;
@@ -624,14 +635,14 @@ html { font-size:80%}
     transform: rotateZ(15deg);
 }
 @media screen and (max-width: 1440px) {
-    .hagakure_samurai_1_yhikaru {
+    .hagakure_samurai_1_hagakureexp {
     position: absolute; 
     width: 270px;
     left:50px;
     margin-top:35px;
     transform: rotateZ(-10deg);
     }
-    .hagakure-summary_yhikaru  {
+    .hagakure-summary_hagakureexp  {
     margin-top: 12px;
     max-width: 40%;
     font-size:1.2rem;
@@ -639,7 +650,7 @@ html { font-size:80%}
     margin-right: auto;
     text-align:left;
     }
-    .hagakure_samurai_2_yhikaru {
+    .hagakure_samurai_2_hagakureexp {
     position: absolute; 
     width: 270px;
     right:50px;
@@ -648,13 +659,13 @@ html { font-size:80%}
     }
 }
 @media screen and (max-width: 1028px) {
-    .hagakure_samurai_1_yhikaru {
+    .hagakure_samurai_1_hagakureexp {
     position: absolute; 
     width: 240px;
     margin-top:45px;
     transform: rotateZ(-10deg);
     }
-    .hagakure-summary_yhikaru  {
+    .hagakure-summary_hagakureexp  {
     margin-top: 12px;
     max-width: 40%;
     font-size:1.2rem;
@@ -662,7 +673,7 @@ html { font-size:80%}
     margin-right: auto;
     text-align:left;
     }
-    .hagakure_samurai_2_yhikaru {
+    .hagakure_samurai_2_hagakureexp {
     position: absolute; 
     width: 240px;
     margin-top:45px;
@@ -672,41 +683,41 @@ html { font-size:80%}
 
 
 @media screen and (max-width: 800px) {
-    .windy_contine_yhikaru {
+    .windy_contine_hagakureexp {
     position: relative; 
     min-width: 375px;
     height: auto;
     }
-    .hagakure_samurai_1_yhikaru {
+    .hagakure_samurai_1_hagakureexp {
     display: none;
     }
-    .hagakure_topicon_yhikaru {
+    .hagakure_topicon_hagakureexp {
     width: 20%;
     margin-top: 10px;
     }
-    .hagakure-inner_yhikaru {
+    .hagakure-inner_hagakureexp {
     margin-top:12px;
     width: 100%;
     font-size: 0.8rem;
     }
-    .hagakure-inner_yhikaru h1 {
+    .hagakure-inner_hagakureexp h1 {
     margin-top:-25px;
     width: 100%;
     font-size: 2.3rem;
     }
-    .hagakure-summary_yhikaru {
+    .hagakure-summary_hagakureexp {
     max-width: 72%;
     margin-top: 20px;
     font-size: 1.2rem;
     }
-    .hagakure_samurai_2_yhikaru {
+    .hagakure_samurai_2_hagakureexp {
     display: none;
     }
 }
 /* ------hagakureここまで---- */
 /* ------SNSここから---- */
 
-.container_sns_fumoto{
+.container_sns_makimono{
   width: 100%;
   min-width: 375px;
   height: 810px;
@@ -717,7 +728,7 @@ html { font-size:80%}
   display: flex;
 }
 
-.item_left_fumoto{
+.item_left_makimono{
   width: 100%;
   height: 100%;
   display: flex;
@@ -727,7 +738,7 @@ html { font-size:80%}
   position: relative;
 }
 
-.cloud_fumoto {
+.cloud_makimono {
   position: absolute;
   right: 100px;
   bottom: 150px;
@@ -736,7 +747,7 @@ html { font-size:80%}
   margin: 0px 20% 0px 0px;
 }
 
-.forest_fumoto {
+.forest_makimono {
   width: auto;
   height: 200px;
   margin: 0px 20% 0px 0px;
@@ -745,7 +756,7 @@ html { font-size:80%}
 }
 
 
-.background-image_makimono_fumoto{
+.background-image_makimono-img_makimono{
   width: 100%;
   max-width: 500px;
   display: flex;
@@ -754,18 +765,18 @@ html { font-size:80%}
   padding-bottom: 160px;
 }
 
-.makimono_image_fumoto{
+.makimono_image_makimono{
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
-.makimono_fumoto {
+.makimono-img_makimono {
   width: 120px;
 }
 
 
-.sns_part_fumoto{
+.sns_part_makimono{
    color: black;
    font-size: 2.4rem;
    font-weight: normal;
@@ -774,22 +785,22 @@ html { font-size:80%}
    margin-bottom:15px;
 }
 
-.facebook_shinfumoto_fumoto{
+.facebook_narrow_makimono{
   display: none;
 }
 
 @media(max-width:600px){
-  .facebook_widefumoto_fumoto{
+  .facebook_wide_makimono{
     display: none;
   }
 
-  .facebook_shinfumoto_fumoto{
+  .facebook_narrow_makimono{
     width: 320px;
     display: initial;
   }
 }
 
-.item_right_fumoto{
+.item_right_makimono{
   width: 100%;
   height: 100%;
   display: flex;
@@ -798,7 +809,7 @@ html { font-size:80%}
   justify-content: flex-start;
   position: relative;
 }
-.castle_fumoto {
+.castle_makimono {
   width: auto;
   height: 200px;
   margin: 0px 0px 0px 20%;
@@ -807,7 +818,7 @@ html { font-size:80%}
 }
 
   @media(max-width:1500px){
-    .cloud_fumoto {
+    .cloud_makimono {
       position: absolute;
       right: 20%;
       bottom: 100px;
@@ -816,19 +827,19 @@ html { font-size:80%}
       margin: 0px 20% 0px 0px;
     }
 
-    .forest_fumoto {
+    .forest_makimono {
       width: 50%;
       height: auto;
       margin: 0px 20% 0px 0px;
     }
-    .castle_fumoto {
+    .castle_makimono {
       width: 50%;
       height: auto;
       margin: 0px 0px 0px 20%;
     }
 }
     @media(max-width:1100px){
-      .cloud_fumoto {
+      .cloud_makimono {
         position: absolute;
         right: 20%;
         bottom: 100px;
@@ -837,12 +848,12 @@ html { font-size:80%}
         margin: 0 auto;
       }
 
-      .forest_fumoto {
+      .forest_makimono {
         width: 150px;
         height: auto;
         margin: 0 0 0 auto;
       }
-      .castle_fumoto {
+      .castle_makimono {
         width: 150px;
         height: auto;
         margin: 0px 0px 0px 0px;
@@ -850,19 +861,19 @@ html { font-size:80%}
 
 }
 @media(max-width:840px){
-  .container_sns_fumoto {
+  .container_sns_makimono {
     height: 750px;
   }
-  .background-image_makimono_fumoto {
+  .background-image_makimono-img_makimono {
     padding-bottom: 80px;
   }
-  .cloud_fumoto {
+  .cloud_makimono {
     display: none;
   }
-  .forest_fumoto {
+  .forest_makimono {
     display: none;
   }
-  .castle_fumoto {
+  .castle_makimono {
     display: none;
   }
 }
