@@ -360,6 +360,19 @@ img {
         margin-bottom:0px;
     }
 }
+.main_visual_smartphone{
+    display: none;
+  }
+@media (max-width: 414px) {
+ .main_visual {
+    display: none;
+  }
+ .main_visual_smartphone{
+    display:block;
+    transform: translateY(0px);
+ }
+
+}
 
 /*footer*/
 .footer{
