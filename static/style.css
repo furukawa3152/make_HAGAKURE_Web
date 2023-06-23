@@ -966,6 +966,7 @@ html { font-size:80%}
     margin-top:20px;
 }
 .oVice_image{
+    width: 400px;
     border-radius: 10px;
 }
 /* 600px以下のサイズの場合のレイアウト
