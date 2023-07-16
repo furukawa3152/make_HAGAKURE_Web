@@ -50,27 +50,56 @@
 
 <body>
   <header class="wrapper_hp">
-    <nav class="navbar navbar-expand navbar-light bg-light">
-      <div class="container-fluid navbar_back_header">
-        <a class="navbar-brand" href="https://hagakurepgm.net/"><img class="logo_itaru" src="static/images/logo.png"
-            alt="logo"></a>
-        <div class="nav-right_header">
-          <ul class="list-group list-group-horizontal">
-            <a href="https://www.facebook.com/102157125979726"><img class="fb_logo_header"
-                src="static/images/facebook_icon.png" alt="facebook"></a>
-            <div class="contact_text_header DivLink_header">参加する
-              <a class="Link_header" href="https://forms.gle/N8ipEt2RFSs8bt4a9"></a>
+<!--    <nav class="navbar navbar-expand navbar-light bg-light">-->
+<!--      <div class="container-fluid navbar_back_header">-->
+<!--        <a class="navbar-brand" href="https://hagakurepgm.net/"><img class="logo_itaru" src="static/images/logo.png"-->
+<!--            alt="logo"></a>-->
+<!--        <div class="nav-right_header">-->
+<!--          <ul class="list-group list-group-horizontal">-->
+<!--            <a href="https://www.facebook.com/102157125979726"><img class="fb_logo_header"-->
+<!--                src="static/images/facebook_icon.png" alt="facebook"></a>-->
+<!--            <div class="contact_text_header DivLink_header">参加する-->
+<!--              <a class="Link_header" href="https://forms.gle/N8ipEt2RFSs8bt4a9"></a>-->
+<!--            </div>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </nav>-->
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="https://hagakurepgm.net/">
+              <img src="static/images/logo.png" alt="hagakure_logo" width="30">
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="https://hagakurepgm.net/">ホーム</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="voice.html">塾生の声</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://forms.gle/N8ipEt2RFSs8bt4a9">参加フォーム</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/102157125979726">FB</a>
+                  </li>
+              </ul>
             </div>
-          </ul>
-        </div>
-      </div>
-    </nav>
+          </div>
+        </nav>
   </header>
+
+
 <section>
     <main class="wrapper_hp main_visual">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="7000">
+          <div class="carousel-item active" data-bs-interval="700">
             <img src="static/images/top1.jpg" class="d-block w-100 top1_image" alt="top1.jpg">
             <div class="carousel-caption">
               <div class="main_title_div">
@@ -95,6 +124,11 @@
               <p class="main_title_p4">同志よ、共に学ぶでござる</p>
             </div>
           </div>
+          <div class="carousel-item transformerSAGA" data-bs-interval="7000">
+            <img src="static/images/transformerSAGA.png" class="d-block w-100" alt="transformerSAGA.png">
+            <a href="https://hagakurepgm.net/saga_bot"class="transformerSAGA_button">
+            <div class="transformerSAGA_div"></div></a>
+          </div>
           <div class="carousel-item" data-bs-interval="7000">
             <img src="static/images/top2.jpg" class="d-block w-100" alt="top2.jpg">
           </div>
@@ -105,7 +139,18 @@
       </div>
     </main>
     <main class="wrapper_hp main_visual_smartphone">
-        <img src="static/images/kenshi_smartphone.jpg" class="w-100" alt="kenshi.jpg">
+      <div id="carouselExampleSlidesOnly2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="7000">
+            <img src="static/images/kenshi_smartphone.jpg" class="w-100" alt="kenshi.jpg">
+          </div>
+          <div class="carousel-item transformerSAGA" data-bs-interval="7000">
+            <img src="static/images/transformerSAGA_smartphone.png" class="d-block w-100" alt="transformerSAGA_smartphone.png">
+            <a href="https://hagakurepgm.net/saga_bot"class="transformerSAGA_button">
+            <div class="transformerSAGA_div"></div></a>
+          </div>
+        </div>
+      </div>
     </main>
   </section>
   <!-- about_us ここから-->
