@@ -291,6 +291,69 @@ img {
     }
 }
 
+.matchcoin{
+  position: relative;
+}
+.matchcoin_button{
+  position: absolute;
+  bottom: 60%;
+  right: 5%;
+}
+.matchcoin_div{
+  width: 25em;
+  height: 25em;
+}
+
+@media (max-width: 1850px){
+.matchcoin_div{
+  width: 22em;
+  height: 22em;
+}
+}
+@media (max-width: 1500px){
+.matchcoin_div{
+  width: 18em;
+  height: 18em;
+}
+}
+@media (max-width: 1350px){
+.matchcoin_div{
+  width: 16em;
+  height: 16em;
+}
+}
+@media (max-width: 1170px){
+.matchcoin_div{
+  width: 14em;
+  height: 14em;
+}
+}
+@media (max-width: 1000px){
+.matchcoin_div{
+  width: 12em;
+  height: 12em;
+}
+}
+@media (max-width: 890px){
+.matchcoin_div{
+  width: 10em;
+  height: 10em;
+}
+}
+@media (max-width: 730px){
+.matchcoin_div{
+  width: 8em;
+  height: 8em;
+}
+}
+@media (max-width: 580px){
+.matchcoin_div{
+  width: 6em;
+  height: 6em;
+}
+}
+
+
 
 @media (max-width: 960px){
     .carousel-caption{
@@ -441,6 +504,15 @@ img {
     .transformerSAGA_div{
       width: 8rem;
       height: 8rem;
+    }
+    .matchcoin_button{
+      position: absolute;
+      bottom: 3%;
+      right: 54%;
+    }
+    .matchcoin_div{
+      width: 13.5em;
+      height: 13em;
     }
 }
 
@@ -1253,8 +1325,6 @@ html { font-size:80%}
   font-size:18px;
 }
 
-
-
 .voice-box-upper {
   order: 1; /* Box 1の順序を設定 */
 }
@@ -1288,3 +1358,5 @@ html { font-size:80%}
   padding:0 0 0 12px;
 }
 }
+
+/* ----- 参加者の声ここまで ----- */
