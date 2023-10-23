@@ -19,3 +19,11 @@
         }
       }
   }
+
+$(document).ready(function(){
+    $('#navbarNav').on('show.bs.collapse', function () {
+        $('#specialElement').hide(); // メニューが開かれたときに要素を非表示にする
+    }).on('hidden.bs.collapse', function () {
+        $('#specialElement').show(); // メニューが閉じられたときに要素を再表示する
+    });
+});

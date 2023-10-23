@@ -132,6 +132,26 @@ img {
     margin:auto;
 }
 
+/*navバー縮小時に塾生の声へのリンクのみ単独で表示*/
+.menu_container{
+    position: relative;
+}
+.voice-link{
+    display: none;
+}
+@media (max-width: 575px) {
+.voice-link {
+    display: block;
+    position: absolute;     /* spanを絶対位置指定に */
+    right: 60px;               /* 右側に固定 */
+    top: 8px;               /* 縦方向の中央から開始 */
+    text-decoration: none;  /* 下線を取り除く */
+    color: inherit;         /* 親要素と同じ色にする、もしくは他の色を指定する */
+}
+.voice-link:visited{
+    color: inherit;
+}
+}
 /*画面縦幅いっぱいに表示する設定。レスポンシブ時の挙動が微妙なため保留。*/
 /* .top1_image{
   width: auto;
